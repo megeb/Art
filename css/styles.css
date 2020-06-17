@@ -1,0 +1,158 @@
+body {
+  text-align: center;
+  font-family: Roboto-Slab;
+  letter-spacing: 2px;
+}
+
+/* Top Section */
+.main-page {
+  background-color: #F5F5F5;
+  margin-bottom: 21px;
+  padding: 21px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu-image {
+  height: 3rem;
+  width: 6rem;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.title-logo {
+  font-size: 60px;
+  margin: auto 50% auto 0;
+}
+
+.title {
+  font-weight: bolder;
+  font-style: oblique;
+  letter-spacing: 5px;
+  margin: auto;
+}
+
+/* Front-Page */
+#front-page {
+  background-color: black;
+  padding: 5rem;
+}
+
+.front-image {
+  margin: auto;
+  padding: 3rem;
+}
+
+/* Art Section */
+.art-section {
+  background-color: #F5F5F5;
+  padding: 7rem 3rem 3rem;
+}
+
+.card-deck {
+  margin: 2rem 0;
+  padding: 2rem;
+}
+
+.image-card {
+  padding: 2rem;
+}
+
+.art-image {
+  height: 21rem;
+}
+
+.cart-button {
+  margin-top: 1rem;
+  letter-spacing: 5px;
+}
+
+/* Traditional-Outfits-Section  */
+.outfits-section {
+  background-color: #ffffff;
+  margin: 2rem;
+  padding: 7rem 3rem 3rem;
+}
+
+.Libse-card {
+  border-style: none;
+  padding: 0 2rem;
+}
+
+.Libse-image {
+  height: 21rem;
+}
+
+.outfits-carousel {
+  margin: 2rem;
+}
+
+.pre-next {
+  margin: 1rem 7rem;
+}
+
+.carousel-indicators {
+  margin: 0 2px 1rem;
+}
+
+/* Events-Section */
+.events-section {
+  background-color: #F5F5F5;
+}
+
+/* Contact-Section */
+.contact-section {
+  background-color: #000000;
+}
+
+/* Media Quiry Section */
+/* home */
+@media only screen and (max-width: 768px) {
+  #top-section {
+    text-align: center;
+  }
+
+  #front-page {
+    padding: 1rem;
+  }
+}
+
+/* Art */
+@media only screen and (max-width:768px) {
+  .art-section {
+    padding: 5rem;
+  }
+
+  .card-deck {
+    margin: 1rem;
+  }
+
+  .image-card {
+    height: 40rem;
+    padding: 3rem;
+  }
+
+  .art-image {
+    height: 15rem;
+  }
+
+  .card-body {
+    letter-spacing: 1px;
+    line-height: 1;
+  }
+
+  .cart-button {
+    letter-spacing: 3px;
+  }
+}
+
+@media only screen and (max-width:768px) {}
+
+@media only screen and (max-width:768px) {}
+
+@media only screen and (max-width:768px) {}
+
+@media only screen and (max-width:768px) {}
+
+@media only screen and (max-width:768px) {}
