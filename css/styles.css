@@ -32,9 +32,8 @@ body {
 }
 
 /* Front-Page */
-#front-page {
-  background-color: black;
-  padding: 5rem;
+.front-section {
+  background-color: #000000;
 }
 
 .front-image {
