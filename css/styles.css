@@ -1,14 +1,12 @@
 body {
   text-align: center;
-  font-family: Roboto-Slab;
+  font-family: 'Roboto-Slab';
   letter-spacing: 2px;
 }
 
 /* Top Section */
 .main-page {
   background-color: #F5F5F5;
-  margin-bottom: 21px;
-  padding: 21px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -22,7 +20,7 @@ body {
 }
 
 .title-logo {
-  font-size: 60px;
+  font-size: 40px;
   margin: auto 50% auto 0;
 }
 
