@@ -44,6 +44,13 @@ body {
   padding: 3rem;
 }
 
+.front-bottom-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
 /* Art Section */
 .art-section {
   background-color: #F5F5F5;
