@@ -128,14 +128,12 @@ body {
   #top-section {
     text-align: center;
   }
+}
 
+@media only screen and (max-width:768px) {
   #front-page {
     padding: 1rem;
   }
-}
-
-/* Art */
-@media only screen and (max-width:768px) {
   .front-image {
     margin: auto;
     padding: 7rem 5rem 3rem;
@@ -143,7 +141,7 @@ body {
 /* art */
   
   .art-section {
-    padding: 5rem 3rem;
+    padding: 5rem 1rem;
   }
 
   .card-deck {
