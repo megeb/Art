@@ -177,7 +177,7 @@ body {
 
   .Libse-card {
     border-style: none;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
   }
 
   .Libse-image {
@@ -185,7 +185,10 @@ body {
   }
 
   .outfits-carousel {
-    margin: 2rem;
+    margin: 1rem;
+  }
+  .pre-next {
+    margin: 2rem 4rem 1rem;
   }
 }
 
