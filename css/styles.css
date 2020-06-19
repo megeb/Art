@@ -197,4 +197,7 @@ body {
   .phone {
     font-size: 10px;
   }
+   .contact-icons {
+     margin: 3rem;
+  }
 }
