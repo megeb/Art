@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  font-family: 'Roboto-Slab';
+  font-family: "Roboto-Slab";
   letter-spacing: 2px;
 }
 
@@ -34,12 +34,11 @@ body {
 /* Front-Page */
 .front-section {
   background-color: #000000;
-  margin-top: 3rem;
 }
 
 .front-image {
   margin: auto;
-  padding: 4rem;
+  padding: 8rem 0 3rem;
 }
 
 .front-bottom-image {
@@ -47,29 +46,30 @@ body {
   max-width: 100%;
   height: auto;
   margin: auto;
+  padding-bottom: 2rem;
 }
 
 /* Art Section */
 .art-section {
   background-color: #F5F5F5;
-  padding: 7rem 3rem 3rem;
+  padding: 2rem 3rem 3rem;
 }
 
 .card-deck {
-  margin: 2rem 0;
+  margin: 4rem 0 2rem;
   padding: 2rem;
 }
 
 .image-card {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .art-image {
-  height: 21rem;
+  height: 19rem;
 }
 
 .cart-button {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   letter-spacing: 5px;
 }
 
@@ -77,24 +77,27 @@ body {
 .outfits-section {
   background-color: #ffffff;
   margin: 2rem;
-  padding: 7rem 3rem 3rem;
+  padding: 5rem 3rem 3rem;
 }
-
+.Libse-d {
+  margin: 2rem 0 1rem;
+  padding: 1rem;
+}
 .Libse-card {
   border-style: none;
   padding: 0 2rem;
 }
 
 .Libse-image {
-  height: 21rem;
+  height: 16rem;
 }
 
 .outfits-carousel {
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .pre-next {
-  margin: 1rem 7rem;
+  margin: 2rem 7rem 1rem;
 }
 
 .carousel-indicators {
@@ -118,6 +121,7 @@ body {
 .image-icon {
   padding: 2rem;
 }
+
 /* Media Quiry Section */
 /* home */
 @media only screen and (max-width: 768px) {
@@ -132,6 +136,11 @@ body {
 
 /* Art */
 @media only screen and (max-width:768px) {
+  .front-image {
+    margin: auto;
+    padding: 7rem 5rem 3rem;
+  }
+
   .art-section {
     padding: 5rem;
   }
@@ -159,10 +168,31 @@ body {
   }
 }
 
+/* outfit */
+@media only screen and (max-width:768px) {
+  .outfits-section {
+    background-color: #ffffff;
+    margin: 2rem;
+    padding: 6rem 3rem 3rem;
+  }
+
+  .Libse-card {
+    border-style: none;
+    padding: 0 2rem;
+  }
+
+  .Libse-image {
+    height: 21rem;
+  }
+
+  .outfits-carousel {
+    margin: 2rem;
+  }
+}
+
+/* Contact */
 @media only screen and (max-width:768px) {
   .phone {
     font-size: 10px;
   }
 }
-
-
