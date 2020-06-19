@@ -140,9 +140,10 @@ body {
     margin: auto;
     padding: 7rem 5rem 3rem;
   }
-
+/* art */
+  
   .art-section {
-    padding: 5rem;
+    padding: 5rem 3rem;
   }
 
   .card-deck {
