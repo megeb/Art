@@ -14,7 +14,10 @@ body {
   height: 3rem;
   width: 6rem;
 }
-
+.dropdown-menu {
+  background-color:none;
+  border:none;
+}
 .card-body {
   padding: 0;
 }
