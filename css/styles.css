@@ -15,7 +15,7 @@ body {
   width: 6rem;
 }
 .dropdown-menu {
-  background-color:none;
+  background:none;
   border:none;
 }
 .card-body {
