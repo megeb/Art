@@ -125,7 +125,7 @@ body {
   padding: 2rem;
 }
 
-/* Media Quiry Section */
+/* Media Queries Section */
 /* home */
 @media only screen and (max-width: 768px) {
   #top-section {
